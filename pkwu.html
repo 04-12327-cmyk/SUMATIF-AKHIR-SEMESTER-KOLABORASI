@@ -1,0 +1,91 @@
+<!-- ============ pkwu.html ============ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video PKWU</title>
+
+    <style>
+        /* ====== NAVBAR ====== */
+       .navbar {
+            background-color: #37b190 ;
+            padding: 15px 20px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-left a {
+            text-decoration: none;
+            color: rgb(23, 22, 22);
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+
+        .logo {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+            margin-right: 10px;
+        }
+
+        .navbar-right a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+        /* ====== VIDEO CARD ====== */
+        .video-container {
+            width: 80%;
+            margin: 40px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        }
+
+        .video-container video {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <div class="navbar-left">
+            <img src="img/serviam.png" class="logo" alt="Logo SAS">
+            <a href="index.html">SAS Kolaborasi</a>
+        </div>
+
+        <div class="navbar-right">
+            <a href="Index.html">Beranda</a>
+            <a href="analisis.html">Analisis </a>
+            <a href="pkwu.html">PKWU</a>
+        </div>
+    </div>
+
+    <h1 style="text-align:center; margin-top:30px;">Video PKWU</h1>
+
+    <!-- CARD VIDEO -->
+    <div class="video-container">
+        <video controls>
+            <source src="vid/Video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+</body>
+</html>
